@@ -25,7 +25,7 @@ export default {
       items: [],
       resultsData: [],
       currencies_list: [],
-      xd: null,                 //<================to trzeba zamienić na $auth.currencies_list i jakoś zamienić na tablicę takich objektów :       
+      xd: null,    
     }
   },
   methods: {
@@ -73,7 +73,7 @@ export default {
         }
       );
     },
-    onMenuClosed(value) {               //<==========================ta metoda jest wykonywana po zamknięciu multichoice 
+    onMenuClosed(value) {
     //tutaj trzeba dodać to PATCH żeby userowi ustawić taką listę cryptosów
       let n = [...value];
       this.currencies_list = n;

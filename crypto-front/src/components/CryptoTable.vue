@@ -24,13 +24,13 @@ export default {
     items: Array,
   },
   methods: {
-    currencyDetails(crypto) {  // <------------------------------ta metoda jes wywoływana po naciśnięciu pozycji na liście :D
+    currencyDetails(crypto) {
       this.$router.push({ path: "/crypto/"+crypto.code});
     },
   },
   data() {
     return {
-      resultsData: [], ///???
+      resultsData: [],
       fields: [{}],
     };
   },
