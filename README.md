@@ -9,4 +9,4 @@ A tiny project made together with a friend. Simple application showing data of t
 *Details of chosen crypto*
 
 ## About
-*The project was created in July 2021.*
+*The project was created in June 2021.*
